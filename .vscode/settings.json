@@ -66,5 +66,6 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
     },
-    "dotnet.defaultSolution": "Jazz-hands.sln"
+    "dotnet.defaultSolution": "Jazz-hands.sln",
+    "git.ignoreLimitWarning": true
 }
