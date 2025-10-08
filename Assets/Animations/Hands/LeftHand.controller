@@ -72,7 +72,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: Blend
+  m_BlendParameter: trigger
   m_BlendParameterY: trigger
   m_MinThreshold: 0.6666666
   m_MaxThreshold: 1
