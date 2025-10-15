@@ -810,6 +810,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2761784063978902506, guid: c1800acf6366418a9b5f610249000331, type: 3}
   m_PrefabInstance: {fileID: 554305953}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &554305955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331, type: 3}
+  m_PrefabInstance: {fileID: 554305953}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +952,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 941188556}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -1359,7 +1370,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558935920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c2ca5fdec657bb1286a31e8859e3583, type: 3}
   m_Name: 
@@ -1622,7 +1633,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648092790}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c2ca5fdec657bb1286a31e8859e3583, type: 3}
   m_Name: 
@@ -1769,9 +1780,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportationActivationAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
-      m_Name: 
+      m_Name: Teleportation Activation
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 4c3a7321-5bad-4389-b0df-82c25de33f1a
@@ -1779,8 +1790,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
-  teleportInteractor: {fileID: 0}
+    m_Reference: {fileID: 1263111715868034790, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  teleportInteractor: {fileID: 554305955}
 --- !u!1 &2061596266
 GameObject:
   m_ObjectHideFlags: 0
